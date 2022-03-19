@@ -1,7 +1,6 @@
 a='Giangkhamliu Grace Pamei'
 b={}
 i=0
-
 while i<len(a):
     j=0
     c=0

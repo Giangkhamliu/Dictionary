@@ -6,5 +6,5 @@ for key, val in dict1.items():
     if val not in temp:
         temp.append(val)
         res[key] = val
-
+print(temp)
 print(res)

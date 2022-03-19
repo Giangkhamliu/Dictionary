@@ -6,3 +6,11 @@ for x in range(1,16):
     d[x]=x**2
 print(d)  
  
+
+
+i=1
+d={}
+while i<=15:
+    d[i]=i**2
+    i+=1
+print(d)

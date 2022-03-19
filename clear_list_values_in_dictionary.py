@@ -1,6 +1,6 @@
 def check(dictionary):
-    for key in dictionary:
-        dictionary[key].clear()
+    for i in dictionary:
+        dictionary[i].clear()
     return dictionary
 dictionary = { 
                'C1' : [10,20,30], 
