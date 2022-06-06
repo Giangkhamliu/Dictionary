@@ -13,5 +13,6 @@ for i,j in a.items():
         a[i]=k
     res.append(d)
 e.append(a)
-print(res)
+# print(res)
 print(e)
+

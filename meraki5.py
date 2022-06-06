@@ -2,9 +2,6 @@
 # are the keys and the elements of the 2nd list are the corresponding values.
 # output-{“one”:1,”two”:2,”three”:3,”four”:4,”five”:5}
 
-from re import I
-
-
 list1=["one","two","three","four","five"]
 list2=[1,2,3,4,5]
 dict={}
@@ -17,5 +14,5 @@ print(dict)
 
 
 ##or 
-# data=dict(zip(list1,list2))
+# data=dict((list1,list2))
 # print(data)

@@ -6,3 +6,4 @@ print("{:<10} {:<10} {:<10}".format('NAME', 'AGE', 'COURSE'))
 for key, value in dict1.items():
     name, age, course = value
     print("{:<10} {:<10} {:<10}".format(name, age, course))
+

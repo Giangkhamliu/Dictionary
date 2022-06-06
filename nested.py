@@ -1,15 +1,11 @@
-##{'S001': {'Saim Richards': 85}, 
-# 'S002': {'Saim Richards': 85}, 
-# 'S003': {'Saim Richards': 85}, 
-# 'S004': {'Saim Richards': 85}}
+# [{'S001': {'Adina Park': 85}},
+#  {'S002': {'Leyton Marsh': 98}},
+#  {'S003': {'Duncan Boyle': 89}},
+# {'S004': {'Saim Richards': 92}}]
 
-l1=['S001', 'S002', 'S003', 'S004']
-l2=['Adina Park', 'Leyton Marsh', 'Duncan Boyle', 'Saim Richards']
-l3=[85, 98, 89, 92]
-d={}
-k=0
-for i in l1:
-    for j in l2:
-        d[i]={}
-        d[i][j]=l3[k]
-print(d)
+a=['S001', 'S002', 'S003', 'S004']
+b=['Adina Park', 'Leyton Marsh', 'Duncan Boyle', 'Saim Richards']
+c=[85, 98, 89, 92]
+x = [{key:value} for key , value in zip(b,c)]
+y=[{key:value} for key, value in zip(a,x)]
+print(y)
